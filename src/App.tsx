@@ -7,6 +7,9 @@ let App = () => (
 			<p>
 					Website coming soon!
 			</p>
+			<p>
+					Just wait......
+			</p>
 		</header>
 	</div>
 );
