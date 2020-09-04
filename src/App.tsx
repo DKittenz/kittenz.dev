@@ -4,12 +4,8 @@ import "./App.css";
 let App = () => (
 	<div className="App">
 		<header className="App-header">
-			<p>
-					Website coming soon!
-			</p>
-			<p>
-					Just wait......
-			</p>
+			<p>Website coming soon!</p>
+			<p>Just wait......</p>
 		</header>
 	</div>
 );
