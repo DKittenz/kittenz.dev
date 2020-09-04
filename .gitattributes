@@ -1,0 +1,6 @@
+# CRLF eolf
+* eol=crlf
+
+# Just to make the lockfiles merge a bit better
+yarn.lock merge=ours
+package-lock.json merge=ours
