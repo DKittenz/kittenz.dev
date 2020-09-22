@@ -14,7 +14,12 @@ const useStyles = makeStyles((theme) => ({
 		flexGrow: 1,
 	},
 	mainContainer: {
-		marginTop: "75px",
+		marginTop: "100px",
+	},
+	centered: {
+		position: "absolute",
+		left: "50%",
+		transform: "translate(-50%, -50%)",
 	},
 }));
 
@@ -31,7 +36,7 @@ let App = () => {
 				</Material.Toolbar>
 			</Material.AppBar>
 			<Material.Container className={classes.mainContainer}>
-				<Material.Typography variant="h5">Hello</Material.Typography>
+				<Material.Typography variant="h5" className={classes.centered}>Hello</Material.Typography>
 			</Material.Container>
 		</div>
 	);
